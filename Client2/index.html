@@ -1,0 +1,57 @@
+<!-- 
+Responsive HTML Table With Pure CSS - Web Design/UI Design
+
+Code written by:
+👨🏻‍⚕️ Coding Design (Jeet Saru)
+
+> You can do whatever you want with the code. However if you love my content, you can **SUBSCRIBED** my YouTube Channel.
+
+🌎link: www.youtube.com/codingdesign 
+ -->
+<!DOCTYPE html>
+<html lang="en" title="Coding design">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive HTML Table With Pure CSS - Web Design/UI Design</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="table">
+      <section class="table__header">
+        <h1>Customer's Orders</h1>
+        <div class="input-group">
+          <input type="search" placeholder="Search Data..." />
+          <img src="images/search.png" alt="" />
+        </div>
+        <div class="export__file">
+          <label
+            for="export-file"
+            class="export__file-btn"
+            title="Export File"
+          ></label>
+          <input type="checkbox" id="export-file" />
+        </div>
+      </section>
+      <section class="table__body">
+        <table>
+          <thead>
+            <tr>
+              <th>Id <span class="icon-arrow">&UpArrow;</span></th>
+              <th>Customer <span class="icon-arrow">&UpArrow;</span></th>
+              <th>Location <span class="icon-arrow">&UpArrow;</span></th>
+              <th>Order Date <span class="icon-arrow">&UpArrow;</span></th>
+              <th>Status <span class="icon-arrow">&UpArrow;</span></th>
+              <th>Amount <span class="icon-arrow">&UpArrow;</span></th>
+              <th>Delete <span class="icon-arrow">&UpArrow;</span></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>
